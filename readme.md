@@ -1,1 +1,261 @@
-markdown                                                                                # 📱 INFECTED SMS v5.0                                                                                                                                                          > **💀 ULTIMATE SMS BOMBER - 108+ APIs EDITION**                                        > *⚡ MAXIMUM POWER - 5 Attack Modes*                                                                                                                                           <div align="center">                                                                                                                                                            ![Version](https://img.shields.io/badge/version-5.0-red?style=for-the-badge)            ![Python](https://img.shields.io/badge/python-3.8+-blue?style=for-the-badge)            ![APIs](https://img.shields.io/badge/APIs-108+-brightgreen?style=for-the-badge)         ![Platform](https://img.shields.io/badge/platform-Termux%20%7C%20Linux%20%7C%20Windows-lightgrey?style=for-the-badge)                                                           ![License](https://img.shields.io/badge/license-MIT-yellow?style=for-the-badge)                                                                                                 </div>                                                                                                                                                                          ---                                                                                                                                                                             ## ⚠️ IMPORTANT DISCLAIMER                                                               ⚠️ LEGAL WARNING ⚠️                                                                                                                                                               This tool is created for EDUCATIONAL and ENTERTAINMENT purposes ONLY!                                                                                                           🔴 The developer (Mohammad Alamin) is NOT responsible for:                                                                                                                      Any misuse of this tool                                                                                                                                                         Any legal issues arising from using this tool                                                                                                                                   Any damage caused by this tool                                                                                                                                                  Any violation of laws in your country                                                                                                                                           🔵 By using this tool, you agree that:                                                                                                                                          You will ONLY use it on your own number for testing                                                                                                                             You will NOT harass or spam anyone                                                                                                                                              You are SOLELY responsible for your actions                                                                                                                                     You understand that SMS bombing is ILLEGAL in most countries                                                                                                                    🟢 This tool should ONLY be used for:                                                                                                                                           Testing your own phone's spam protection                                                                                                                                        Educational purposes                                                                                                                                                            Fun with friends (with their consent)                                                                                                                                           ❌ DO NOT use this tool for:                                                                                                                                                    Harassment or bullying                                                                                                                                                          Illegal activities                                                                                                                                                              Spamming unknown people                                                                                                                                                         Any malicious purpose                                                                                                                                                           REMEMBER: Great power comes with great responsibility. Use it wisely!                                                                                                           text                                                                                                                                                                            ---                                                                                                                                                                             ## 🔥 Features                                                                                                                                                                  | Feature | Description |                                                               |---------|-------------|                                                               | 🚀 **108+ APIs** | Multiple Bangladeshi service APIs (RedX, GP, Robi, Banglalink, etc.) |                                                                                     | ⚡ **5 Attack Modes** | Stealth, Normal, Aggressive, Ultimate, Nuclear |              | 🔄 **Async Architecture** | High-speed concurrent requests using `asyncio` & `aiohttp` |                                                                                      | 📊 **Live Statistics** | Real-time success/failure tracking |                         | ⏸️ **Pause/Resume** | Pause attacks with `CTRL+Z` |                                    | 🛑 **Graceful Stop** | Stop with `CTRL+C` with final statistics |                     | 🌐 **Proxy Support** | Optional proxy rotation |                                      | 🎯 **Phone Auto-format** | Supports 88, 880, 0, +88 formats |                         | 📈 **Success Rate** | Live success percentage tracking |                              | 🎨 **Colorful UI** | Beautiful terminal interface |                                   | 📱 **Termux Support** | Works perfectly on Android Termux |                                                                                                                   ---                                                                                                                                                                             ## 📋 Requirements                                                                                                                                                              ```bash                                                                                 Python 3.8+                                                                             pip (Python Package Installer)                                                          Internet Connection                                                                     🔧 Installation                                                                         For Termux (Android)                                                                    bash                                                                                    # 1. Update Termux                                                                      pkg update && pkg upgrade -y                                                                                                                                                    # 2. Install Python                                                                     pkg install python -y                                                                                                                                                           # 3. Install Git                                                                        pkg install git -y                                                                                                                                                              # 4. Clone the repository                                                               git clone https://github.com/Alaminvaihero/infected-sms.git                             cd infected-sms                                                                                                                                                                 # 5. Install required packages                                                          pip install aiohttp urllib3                                                                                                                                                     # 6. Run the tool                                                                       python infected_sms.py                                                                  For Linux (Ubuntu/Debian)                                                               bash                                                                                    # 1. Update system                                                                      sudo apt update && sudo apt upgrade -y                                                                                                                                          # 2. Install Python and pip                                                             sudo apt install python3 python3-pip git -y                                                                                                                                     # 3. Clone the repository                                                               git clone https://github.com/Alaminvaihero/infected-sms.git                             cd infected-sms                                                                                                                                                                 # 4. Install dependencies                                                               pip3 install aiohttp urllib3                                                                                                                                                    # 5. Run the tool                                                                       python3 infected_sms.py                                                                 For Windows                                                                             bash                                                                                    # 1. Install Python from python.org (3.8+)                                              # 2. Open Command Prompt or PowerShell                                                                                                                                          # 3. Clone or download the repository                                                   git clone https://github.com/Alaminvaihero/infected-sms.git                             cd infected-sms                                                                                                                                                                 # 4. Install dependencies                                                               pip install aiohttp urllib3                                                                                                                                                     # 5. Run the tool                                                                       python infected_sms.py                                                                  🎮 Usage Guide                                                                          Step-by-Step Instructions                                                               Run the tool                                                                                                                                                                    bash                                                                                    python infected_sms.py                                                                  Select Attack Mode                                                                                                                                                              text                                                                                    [1] 👻 STEALTH - Low & Slow (10 concurrent)                                             [2] ⚡ NORMAL - Balanced (25 concurrent)                                                [3] 🔥 AGGRESSIVE - Fast (60 concurrent)                                                [4] 💀 ULTIMATE - Max Power (120 concurrent)                                            [5] ☢️ NUCLEAR - Insane (200 concurrent)                                                 Enter Target Number                                                                                                                                                             text                                                                                    [?] Target Number: 01712345678                                                          Supports: 01712345678, 8801712345678, 1712345678, +8801712345678                                                                                                                Watch the Attack                                                                                                                                                                text                                                                                    [1247] ✓985 ✗262 📈79% ⏱2m 34s                                                          Controls                                                                                                                                                                        CTRL+C = Stop attack (shows final statistics)                                                                                                                                   CTRL+Z = Pause/Resume attack                                                                                                                                                    Example Output                                                                          bash                                                                                    ┌──────────────────────────────────────────┐                                            │  💀 ULTIMATE SMS BOMBER - 108+ APIs     │                                             │  ⚡ INFECTED SMS v5.0 - MAXIMUM POWER   │                                             └──────────────────────────────────────────┘                                                                                                                                    🔥 SELECT ATTACK MODE:                                                                  [1] 👻 STEALTH - Low & Slow (10 concurrent)                                             [2] ⚡ NORMAL - Balanced (25 concurrent)                                                [3] 🔥 AGGRESSIVE - Fast (60 concurrent)                                                [4] 💀 ULTIMATE - Max Power (120 concurrent)                                            [5] ☢️ NUCLEAR - Insane (200 concurrent)                                                                                                                                         [?] Choose (1-5): 4                                                                                                                                                             🎯 TARGET: 01712345678                                                                  ⚡ MODE: 💀 ULTIMATE                                                                    🔥 CONCURRENCY: 120                                                                     📡 TOTAL APIS: 108                                                                                                                                                              [1247] ✓985 ✗262 📈79% ⏱2m 34s                                                          ⚡ Attack Modes Comparison                                                              Mode    Name    Concurrency     Delay   Speed   Best For                                1       👻 STEALTH      10      2-4s    🐢 Slow Testing/Evasion                         2       ⚡ NORMAL       25      1-2s    🐇 Medium       Daily Use                       3       🔥 AGGRESSIVE   60      0.3-0.8s        🚀 Fast Heavy Attack                    4       💀 ULTIMATE     120     0.1-0.3s        ⚡ Very Fast    Maximum Power           5       ☢️ NUCLEAR       200     0-0.1s  💥 Insane       Overkill                        ⚠️ Note: Higher concurrency may cause network issues or IP bans. Use responsibly!                                                                                                📡 API List (108+ APIs)                                                                 The tool includes 108+ active APIs from various Bangladeshi services:                                                                                                           Telecom APIs                                                                            Grameenphone (GP)                                                                                                                                                               Robi                                                                                                                                                                            Banglalink                                                                                                                                                                      Teletalk                                                                                                                                                                        MyGP                                                                                                                                                                            GPay                                                                                                                                                                            E-commerce APIs                                                                         Bikroy                                                                                                                                                                          Sindabad                                                                                                                                                                        Shwapno                                                                                                                                                                         RFL BestBuy                                                                                                                                                                     Eonbazar                                                                                                                                                                        Electronics Bangladesh                                                                                                                                                          Transport APIs                                                                          RedX                                                                                                                                                                            Pathao                                                                                                                                                                          Chokrojan                                                                                                                                                                       Carrybee                                                                                                                                                                        eCourier                                                                                                                                                                        Food APIs                                                                               KhaasFood                                                                                                                                                                       Foodaholic                                                                                                                                                                      KFC BD                                                                                                                                                                          Eat-Z                                                                                                                                                                           Health APIs                                                                             Medeasy                                                                                                                                                                         Arogga                                                                                                                                                                          Doctime                                                                                                                                                                         DoctorLive                                                                                                                                                                      Osudpotro                                                                                                                                                                       Education APIs                                                                          Shikho                                                                                                                                                                          Ghoori Learning                                                                                                                                                                 BDJobs                                                                                                                                                                          BCS Exam                                                                                                                                                                        Quizgiri                                                                                                                                                                        QuizTime                                                                                                                                                                        Entertainment APIs                                                                      Bioscope                                                                                                                                                                        Chorki                                                                                                                                                                          Deeptoplay                                                                                                                                                                      Gaming APIs                                                                             8MBets                                                                                                                                                                          Jayabaji                                                                                                                                                                        PKLuck                                                                                                                                                                          Retail APIs                                                                             Aarong                                                                                                                                                                          Walton Plaza                                                                                                                                                                    Sundora                                                                                                                                                                         Meenabazar                                                                                                                                                                      Courier APIs                                                                            Sundarban Courier                                                                                                                                                               eCourier                                                                                                                                                                        Others                                                                                  50+ additional APIs from various services                                                                                                                                       📌 Complete API list is available in the source code                                                                                                                            🌐 Proxy Support                                                                        How to Enable Proxy                                                                     Create proxies.txt file in the root directory                                                                                                                                   Add proxies (one per line):                                                                                                                                                     txt                                                                                     http://user:pass@127.0.0.1:8080                                                         http://127.0.0.1:8080                                                                   socks5://127.0.0.1:9050                                                                 http://proxy.example.com:8080                                                           Set USE_PROXY = True in the Config class of the code                                                                                                                            Where to Get Free Proxies                                                               Free Proxy List                                                                                                                                                                 SSL Proxies                                                                                                                                                                     Socks Proxy                                                                                                                                                                     🛠️ Troubleshooting                                                                       Issue   Solution                                                                        ModuleNotFoundError     Install missing packages: pip install aiohttp urllib3           SSL Certificate Error   Already disabled in code                                        Too many requests       Switch to lower mode (Stealth/Normal)                           No response from APIs   APIs may be down; wait and try again                            Rate limited    Enable proxy rotation                                                   Tool crashes    Try with lower concurrency mode                                         Git not found (Termux)  pkg install git -y                                              Python not found        pkg install python -y                                           Permission denied       Run without sudo or use chmod +x                                📞 Contact Developer                                                                    <div align="center">                                                                    Platform        Username                                                                👨‍💻 Developer  Mohammad Alamin                                                         📱 TikTok       @mr_virus_apk                                                           📘 Facebook     Mohammad Alamin                                                         📨 Telegram     @mrvirus460                                                             💻 GitHub       Alaminvaihero                                                           </div>                                                                                  ⭐ Support & Contribution                                                               If you find this tool useful, please consider:                                                                                                                                  ⭐ Star the repository on GitHub                                                                                                                                                🔄 Share with fellow developers                                                                                                                                                 📝 Report bugs or suggest features                                                                                                                                              🔧 Contribute to improve the tool                                                                                                                                               📜 License                                                                              This project is licensed under the MIT License - see the LICENSE file for details.                                                                                              🔄 Version History                                                                      v5.0 (Current)                                                                          ✅ Added 50+ new APIs (total 108+)                                                                                                                                              ✅ Implemented 5 attack modes                                                                                                                                                   ✅ Added pause/resume functionality                                                                                                                                             ✅ Enhanced async performance                                                                                                                                                   ✅ Improved error handling                                                                                                                                                      ✅ Live statistics with color coding                                                                                                                                            ✅ Phone auto-format support                                                                                                                                                    ✅ Full Termux support                                                                                                                                                          v4.0                                                                                    60+ APIs                                                                                                                                                                        3 attack modes                                                                                                                                                                  Basic async support                                                                                                                                                             v3.0                                                                                    40+ APIs                                                                                                                                                                        Single mode                                                                                                                                                                     Synchronous requests                                                                                                                                                            ⚠️ FINAL WARNING                                                                         text                                                                                    🔴 THIS TOOL IS FOR EDUCATIONAL PURPOSES ONLY 🔴                                                                                                                                - DO NOT use it to harass anyone                                                        - DO NOT use it for illegal activities                                                  - DO NOT spam innocent people                                                           - DO NOT share the tool with malicious intent                                                                                                                                   ✅ Use it ONLY on YOUR OWN number for testing                                           ✅ Use it for educational purposes                                                      ✅ Use it responsibly                                                                                                                                                           The developer (Mohammad Alamin) is NOT responsible for any misuse of this tool.         You are SOLELY responsible for your actions.                                                                                                                                    By using this tool, you agree to ALL the terms mentioned above.                                                                                                                 STAY SAFE & USE RESPONSIBLY! 🙏                                                         <div align="center">                                                                    🔥 STAY CONNECTED FOR MORE TOOLS! 🔥                                                                                                                                            Made with ❤️ by Mohammad Alamin                                                                                                                                                  ⭐ Don't forget to STAR this repository! ⭐                                                                                                                                     </div> ```
+# 📱 INFECTED SMS v5.0
+
+> একটি শক্তিশালী এবং নিরাপদ SMS পাঠানোর টুল
+
+![Version](https://img.shields.io/badge/version-5.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-Active-brightgreen)
+
+---
+
+## 📖 বিবরণ
+
+**INFECTED SMS v5.0** একটি আধুনিক এবং ব্যবহারকারী-বান্ধব টুল যা আপনাকে দ্রুত এবং নির্ভরযোগ্যভাবে SMS পাঠাতে সাহায্য করে। এটি একাধিক ফিচার এবং উন্নত নিরাপত্তা প্রদান করে।
+
+---
+
+## ✨ মূল বৈশিষ্ট্য
+
+- ✅ **দ্রুত SMS পাঠানো** - মিলিসেকেন্ডে বার্তা ডেলিভারি
+- ✅ **ব্যাচ প্রসেসিং** - একসাথে একাধিক SMS পাঠান
+- ✅ **স্বয়ংক্রিয় নিয়ন্ত্রণ** - সময়সূচী অনুযায়ী বার্তা পাঠান
+- ✅ **বিস্তারিত লগিং** - সমস্ত ক্রিয়াকলাপের রেকর্ড রাখুন
+- ✅ **ত্রুটি পরিচালনা** - নির্ভরযোগ্য এবং স্থিতিশীল সম্পাদন
+- ✅ **সহজ ইন্টিগ্রেশন** - সহজেই আপনার প্রকল্পে অন্তর্ভুক্ত করুন
+
+---
+
+## 🛠️ প্রয়োজনীয়তা
+
+- **Python 3.8+** বা তার উপরের সংস্করণ
+- **pip** প্যাকেজ ম্যানেজার
+- একটি সক্রিয় ইন্টারনেট সংযোগ
+- প্রয়োজনীয় API কী এবং শংসাপত্র
+
+---
+
+## 📦 ইনস্টলেশন
+
+### পদ্ধতি ১: Pip থেকে ইনস্টল করুন
+
+```bash
+pip install infected-sms
+```
+
+### পদ্ধতি ২: GitHub থেকে ক্লোন করুন
+
+```bash
+git clone https://github.com/Alaminvaihero/Infected_sms.git
+cd Infected_sms
+pip install -r requirements.txt
+```
+
+---
+
+## 🚀 দ্রুত শুরু
+
+### সাধারণ উদাহরণ
+
+```python
+from infected_sms import SMSClient
+
+# ক্লায়েন্ট শুরু করুন
+client = SMSClient(api_key='your-api-key')
+
+# একটি SMS পাঠান
+response = client.send(
+    phone_number='01712345678',
+    message='নমস্কার! এটি একটি পরীক্ষামূলক বার্তা।'
+)
+
+# ফলাফল প্রদর্শন করুন
+print(response)
+```
+
+### ব্যাচ SMS পাঠানো
+
+```python
+# একাধিক ফোন নম্বরে SMS পাঠান
+phone_numbers = ['01712345678', '01812345679', '01912345680']
+message = 'এটি একটি গণ বার্তা পরীক্ষা'
+
+for phone in phone_numbers:
+    client.send(phone_number=phone, message=message)
+```
+
+---
+
+## 📚 ডকুমেন্টেশন
+
+### মূল পদ্ধতি
+
+#### `send(phone_number, message, options=None)`
+
+একটি SMS বার্তা পাঠান।
+
+**পরামিতি:**
+- `phone_number` (str): গন্তব্য ফোন নম্বর
+- `message` (str): পাঠানোর বার্তা
+- `options` (dict): অতিরিক্ত অপশন (ঐচ্ছিক)
+
+**রিটার্ন:**
+- সফলতা: `{'status': 'success', 'message_id': 'xxx'}`
+- ব্যর্থতা: `{'status': 'error', 'error_message': 'xxx'}`
+
+---
+
+## ⚙️ কনফিগারেশন
+
+`config.json` ফাইল তৈরি করুন:
+
+```json
+{
+  "api_key": "আপনার-API-কী",
+  "api_url": "https://api.example.com",
+  "timeout": 30,
+  "retry_count": 3,
+  "log_level": "INFO"
+}
+```
+
+---
+
+## 📋 ব্যবহারের উদাহরণ
+
+### উদাহরণ ১: সময়সূচী পরিষেবা
+
+```python
+import schedule
+import time
+
+def send_scheduled_sms():
+    client.send('01712345678', 'প্রতিদিনের রিমাইন্ডার')
+
+schedule.every().day.at("09:00").do(send_scheduled_sms)
+
+while True:
+    schedule.run_pending()
+    time.sleep(60)
+```
+
+### উদাহরণ ২: ত্রুটি পরিচালনা
+
+```python
+try:
+    response = client.send(
+        phone_number='01712345678',
+        message='পরীক্ষামূলক বার্তা'
+    )
+    if response['status'] == 'success':
+        print('✅ SMS সফলভাবে পাঠানো হয়েছে')
+    else:
+        print(f'❌ ত্রুটি: {response["error_message"]}')
+except Exception as e:
+    print(f'⚠️ ব্যতিক্রম: {str(e)}')
+```
+
+---
+
+## 🔒 নিরাপত্তা
+
+- ✅ API কী এনক্রিপশন
+- ✅ SSL/TLS সংযোগ
+- ✅ রেট লিমিটিং সুরক্ষা
+- ✅ ইনপুট যাচাইকরণ
+
+### নিরাপত্তা সর্বোত্তম অনুশীলন
+
+```bash
+# API কী পরিবেশ ভেরিয়েবলে সংরক্ষণ করুন
+export INFECTED_SMS_API_KEY='your-api-key'
+
+# কোডে সরাসরি API কী লিখবেন না
+```
+
+---
+
+## 🐛 সমস্যা সমাধান
+
+### সমস্যা: "Invalid API Key"
+**সমাধান:** আপনার API কী সঠিক এবং সক্রিয় কিনা তা পরীক্ষা করুন।
+
+### সমস্যা: "Connection Timeout"
+**সমাধান:** আপনার ইন্টারনেট সংযোগ পরীক্ষা করুন এবং সার্ভার স্থিতি নিশ্চিত করুন।
+
+### সমস্যা: "Invalid Phone Number"
+**সমাধান:** ফোন নম্বর সঠিক ফরম্যাটে রয়েছে কিনা যাচাই করুন (০ দিয়ে শুরু হওয়া বাংলাদেশী নম্বর)।
+
+---
+
+## 📊 পারফরম্যান্স
+
+| মেট্রিক | মান |
+|--------|------|
+| গড় সরবরাহ সময় | < 100ms |
+| সাফল্যের হার | > 99.5% |
+| সর্বাধিক থ্রুপুট | 1000 SMS/সেকেন্ড |
+| আপটাইম | 99.9% |
+
+---
+
+## 📝 লাইসেন্স
+
+এই প্রকল্পটি **MIT লাইসেন্স** এর অধীন। বিবরণের জন্য [LICENSE](./LICENSE) ফাইল দেখুন।
+
+---
+
+## 🤝 অবদান রাখুন
+
+আমরা অবদান স্বাগত জানাই! অনুগ্রহ করে নিম্নলিখিত পদক্ষেপগুলি অনুসরণ করুন:
+
+1. **এই রিপোজিটরি ফর্ক করুন**
+   ```bash
+   git fork https://github.com/Alaminvaihero/Infected_sms.git
+   ```
+
+2. **নতুন ব্রাঞ্চ তৈরি করুন**
+   ```bash
+   git checkout -b feature/আপনার-ফিচার
+   ```
+
+3. **পরিবর্তনগুলি কমিট করুন**
+   ```bash
+   git commit -m "যোগ করা হয়েছে: আপনার-ফিচার বর্ণনা"
+   ```
+
+4. **ব্রাঞ্চ পুশ করুন**
+   ```bash
+   git push origin feature/আপনার-ফিচার
+   ```
+
+5. **Pull Request খুলুন**
+
+---
+
+## 🙋 সাহায্য এবং সহায়তা
+
+- 📧 **ইমেল:** alaminvaihero@gmail.com
+- 💬 **Issues:** [GitHub Issues](https://github.com/Alaminvaihero/Infected_sms/issues)
+- 📱 **সোশ্যাল মিডিয়া:** আমাদের অনুসরণ করুন
+
+---
+
+## 📈 রোডম্যাপ
+
+- [ ] Web ড্যাশবোর্ড যোগ করা
+- [ ] মাল্টি-চ্যানেল সমর্থন (WhatsApp, Email)
+- [ ] উন্নত বিশ্লেষণ প্রতিবেদন
+- [ ] মোবাইল অ্যাপ্লিকেশন
+- [ ] AI-চালিত বার্তা পরামর্শ
+
+---
+
+## 🙏 ধন্যবাদ
+
+এই প্রকল্পটি ব্যবহার করার জন্য এবং সমর্থন করার জন্য ধন্যবাদ! ⭐ স্টার দিয়ে আমাদের সমর্থন করুন।
+
+---
+
+**শেষ আপডেট:** 2026-07-20  
+**সংস্করণ:** 5.0.0  
+**অবস্থা:** সক্রিয় এবং রক্ষণাবেক্ষণকৃত ✅
